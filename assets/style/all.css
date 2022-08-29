@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+body {
+  font-family: "SF Pro Text", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  margin: 40px 0 0 0;
+  padding: 0 0 24px 0;
+  border-bottom: 2px solid #000; }
+
+.photo {
+  margin: 48px 0; }
+
+.profile, .education, .skills, .workEXP {
+  margin-bottom: 64px; }
+
+.title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid #000;
+  margin: 0 0 16px 0; }
+
+.subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin: 0 0 0 16px; }
+
+.subColor {
+  color: #A00404; }
+
+.profile ul, .education li, .workEXP li {
+  margin: 0 0 24px 0; }
+
+.container li p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  width: 642px; }
+
+.education li, .contactMethod li {
+  margin: 0 0 16px 0; }
+
+.bg-primary {
+  color: #fff;
+  background: #415165;
+  padding: 24px 0 40px 0; }
+
+.bg-primary .title {
+  border-bottom: 1px solid #fff;
+  text-align: center; }
+
+.skills .title {
+  width: 996px;
+  margin: 0 auto; }
+
+.skills ul, .workEXP ul {
+  padding: 0 24px;
+  border-left: 1px solid #96A9C4; }
+
+.skills ul {
+  width: 248px;
+  margin: 40px auto 0; }
+
+.workEXP ul {
+  margin: 0 0 0 24px; }
+
+.bg-primary li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  margin: 0 0 8px 0; }
+
+.workEXP-list {
+  font-weight: 500; }
+
+.contactMethod {
+  margin: 80px 0 0 0;
+  text-align: center; }
+
+.contactMethod .title {
+  width: 1200px;
+  margin: 0 0 24px 0; }
+
+.contactMethod li {
+  margin: 0 0 16px 0; }
+
+.contactMethod .sns a {
+  padding: 0 12px; }
+
+/*# sourceMappingURL=all.css.map */
